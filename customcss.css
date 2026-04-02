@@ -1,0 +1,586 @@
+/* ====== Home page ====== */
+/* Language chooser part */
+.ne {
+  margin-right: 0;
+}
+
+.ne a {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/* Search button at header part */
+[id="edit-submit"] {
+  background-color: #379777;
+  color: #f5f7f8;
+  border: none;
+  padding: 3px 8px;
+  border-radius: 2px;
+  transition: background-color 0.3s ease-in;
+}
+
+[id="edit-submit"]:hover {
+  background-color: #333333;
+}
+
+/* थप हेर्नुहोस button */
+.more-link {
+  padding: 0px;
+  margin-top: 15px;
+}
+
+.more-link a {
+  color: #f5f7f8 !important;
+  display: block;
+  position: relative;
+  background-color: #379777;
+  padding: 10px 17px;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-size: 1.5rem !important;
+}
+
+.more-link a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #333333;
+  transition: left 0.3s ease-in;
+  z-index: -1;
+}
+
+.more-link a:hover::before {
+  left: 0;
+}
+
+/* जनप्रतिनिधि container */
+.region.region-sidebar-second {
+  padding: 25px;
+  padding-top: 0 !important;
+}
+
+/* सूचना तथा समाचार container */
+.region.region-sidebar-third {
+  border-left: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+/* पदाधिकारी container */
+#block-views-elected-officials-block-3 {
+  margin-top: 45px;
+}
+
+/* curved container of photo that has blue background */
+.views-field-field-photo {
+  padding-bottom: 10px;
+}
+
+/* संक्षिप्त परिचय */
+/* To style (Submitted on: Fri, 06/05/2015 - 12:13) */
+.submitted {
+  margin-top: 3.1rem;
+  font-size: 14px;
+  text-align: end;
+}
+
+/* paragraph */
+.rtejustify {
+  line-height: 1.5;
+}
+
+/* संक्षिप्त परिचय heading customization */
+h2 a[href="/ne/node/3"] {
+  font-weight: 600;
+  color: #379777 !important;
+}
+
+/* To hide English language changer */
+[title="Brief Introduction"] {
+  display: none;
+}
+
+.link-wrapper {
+  margin-top: 15px;
+}
+
+.node-readmore {
+  margin: 0;
+  display: block !important;
+  text-align: end;
+}
+
+/* Read more button */
+[title="संक्षिप्त परिचय"] {
+  display: inline-block;
+  padding: 9px 13px;
+  background-color: #379777;
+  color: #f5f7f8;
+  border: none;
+  margin-bottom: 5px;
+  transition: background-color 0.3s ease-in;
+  border-radius: 4px;
+}
+
+[title="संक्षिप्त परिचय"]:hover {
+  color: #f5f7f8;
+  background-color: #333333;
+}
+
+div.node-promoted {
+  margin-bottom: 0px;
+}
+
+/* सूचना तथा समाचार जनप्रतिनिधि जानकारी rows*/
+.views-row {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  padding: 10px !important;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  transition: background-color 0.2s ease-in;
+}
+
+.views-row:hover {
+  background-color: #f4ce14;
+}
+
+/* All pages Table style */
+/* .table class is not defined on आकस्मिक सेवा वडाअध्यक्षहरू Online Services LISA  */
+.table {
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+.table th,
+.table td {
+  height: 100%;
+  text-align: left;
+  vertical-align: middle !important;
+  cursor: pointer;
+}
+
+.table th {
+  background-color: #234a83;
+  color: #f5f7f8 !important;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f1f1f1 !important;
+  transition: background-color 0.2s ease-in;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f5f7f8 !important;
+  transition: background-color 0.2s ease-in;
+}
+
+.table tbody tr:hover {
+  background-color: #f4ce14 !important;
+}
+
+.table .views-field-field-photo {
+  text-align: center;
+}
+
+table tr th {
+  text-align: center !important;
+  font-size: 1.5rem !important;
+}
+
+table tr td {
+  font-size: 1.4rem !important;
+}
+
+table tr td:first-child {
+  text-align: center !important;
+}
+
+/*  सम्पर्क page */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+ul.custom-drop-menu .custom-drop-menu {
+  left: 100%;
+}
+
+#webform-client-form-1 {
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 8px 20px;
+  min-width: 100%;
+  margin: 20px 0;
+}
+
+#webform-client-form-1 .form-group label {
+  color: #333333;
+  font-weight: 600;
+}
+
+#webform-client-form-1 .form-group input,
+#webform-client-form-1 .form-group textarea,
+#webform-client-form-1 .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.2s ease-in;
+}
+
+#webform-client-form-1 .form-group input:focus,
+#webform-client-form-1 .form-group textarea:focus,
+#webform-client-form-1 .form-group select:focus {
+  border-color: #f4ce14;
+  outline: none;
+}
+
+#webform-client-form-1 .webform-submit {
+  background-color: #379777;
+  color: #f5f7f8;
+  border: none;
+  padding: 10px 17px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in;
+  width: 8%;
+}
+
+#webform-client-form-1 .webform-submit:hover {
+  background-color: #333333;
+}
+
+/* महत्वपूर्ण लिङ्क container */
+#block-block-19 {
+  margin-top: 6.3rem;
+}
+
+/* Online Services container */
+div.region-services h3.section-title {
+  padding: 25px 0 0 0px;
+}
+
+/* हाम्रा सेवाहरू */
+#block-views-services-block-1 {
+  margin-top: 5rem;
+}
+
+/* जानकारी */
+#quicktabs-container-quick_tab {
+  height: 44.6rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  padding: 10px;
+}
+
+/* सूचना तथा समाचार  */
+.region-sidebar-third .block h3 {
+  padding-bottom: 0.8rem;
+}
+
+/* जनप्रतिनिधि  */
+.custom-css-for-id-card-look {
+  padding: 7px !important;
+  background-color: #f5f7f8;
+  box-sizing: border-box;
+  border-start-end-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  margin-top: 18px;
+}
+
+.custom-css-for-id-card-look:hover {
+  background-color: #f5f7f8;
+}
+
+.custom-css-for-id-card-look .views-field-field-photo {
+  background-color: #234a83;
+  border-radius: 4px;
+  border-end-start-radius: 50%;
+}
+
+.custom-css-for-id-card-look img {
+  border-radius: 50% !important;
+  border: 2px solid #f5f7f8;
+  height: 20.71rem !important;
+  width: 100% !important;
+}
+
+/* शिवराज राजपत्र page button */
+#edit-submit-bg-documents {
+  margin-top: 0;
+  border: none;
+  background-color: #379777;
+  color: #f5f7f8;
+  padding: 3px 12px;
+  border-radius: 2px;
+  transition: background-color 0.3s ease-in;
+}
+
+#edit-submit-bg-documents:hover {
+  background-color: #333333;
+}
+
+/*  */
+#edit-submit-official-dicision {
+  margin-top: 0;
+  border: none;
+  background-color: #379777;
+  color: #f5f7f8;
+  padding: 3px 12px;
+  border-radius: 2px;
+  transition: background-color 0.3s ease-in;
+}
+
+#edit-submit-official-dicision:hover {
+  background-color: #333333;
+}
+
+/* प्रकाशन page button */
+#edit-submit-elected-officials {
+  margin-top: 0;
+  border: none;
+  background-color: #379777;
+  color: #f5f7f8;
+  padding: 3px 12px;
+  border-radius: 2px;
+  transition: background-color 0.3s ease-in;
+}
+
+#edit-submit-elected-officials:hover {
+  background-color: #333333;
+}
+
+#edit-keys-wrapper {
+  display: flex;
+  gap: 4px;
+}
+
+/* To change title color */
+h3.section-title {
+  color: #379777 !important;
+}
+
+.quicktabs-tab.quicktabs-tab-block {
+  background-color: #234a83;
+  color: #f5f7f8 !important;
+  font-size: 1.9rem;
+}
+
+.content {
+  box-sizing: border-box;
+}
+
+.content .online-services-custom-css div {
+  border: none !important;
+}
+
+.content .online-services-custom-css {
+  transition: background-color 0.3s ease-in;
+}
+
+.content .online-services-custom-css:hover {
+  background-color: #f4ce14;
+}
+
+.field-item.even,
+.field-item.odd {
+  display: block;
+}
+
+section.introduction .views-field.views-field-title {
+  font-size: initial;
+}
+
+.tab-default li.active a:after {
+  border-top: 6px solid #c41a28;
+}
+
+#block-block-19 {
+  margin-top: 3.5rem;
+}
+
+#accordion9 .panel-title a:before,
+#accordion9 .panel-title a.collapsed:before {
+  color: #234982;
+}
+
+/* Footer part */
+footer {
+  background-color: #333333;
+}
+
+/* सूचनाहरू, विधुतीय शुसासन सेवा  */
+ul li.leaf {
+  list-style: none;
+}
+
+#edit-vote {
+  background-color: #379777;
+  padding: 10px 17px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-size: 1.5rem !important;
+  color: #f5f7f8;
+  border: none;
+  transition: background-color 0.3s ease-in;
+}
+
+#edit-vote:hover {
+  background-color: #333333;
+}
+
+.logo-slogan-center {
+  margin-top: 20px;
+}
+
+#block-views-official-dicision-block-3 {
+  margin-top: 2.4rem;
+}
+
+/*To hide FAQ ... */
+body .sticky {
+  display: none;
+}
+
+/* Top Heading */
+.header-top {
+  background-color: #379777 !important;
+  margin-bottom: 5px !important;
+}
+
+.header-top img {
+  background-color: transparent !important;
+}
+
+.header-top span {
+  color: white !important;
+}
+
+.ne a {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/* elected official page button at footer */
+.bg-elected-officials {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #379777;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in;
+}
+.bg-elected-officials:hover {
+  background-color: #333333;
+  color: #fff;
+}
+/* Media query for bigger screen */
+@media only screen and (min-width: 1011px) {
+  /* Navigation bar */
+  .custom-drop-menu {
+    min-width: 230px !important;
+    top: 95%;
+  }
+  .main-nav {
+    flex-wrap: wrap;
+  }
+  .main-nav > .has-child > .custom-drop-menu {
+    left: 0%;
+  }
+  #block-system-main-menu .main-nav > li {
+    padding-right: 5px;
+    transition: background-color 0.2s ease-in;
+  }
+  #block-system-main-menu .main-nav > li:hover {
+    background-color: #f4ce14;
+  }
+  .custom-drop-menu li a::after {
+    transition: 0s;
+    background-color: #f4ce14;
+  }
+  .main-nav .custom-drop-menu li.has-child::before {
+    top: 35%;
+  }
+  .main-nav li.has-child::before {
+    right: -1px;
+  }
+  header .second {
+    padding-right: 0px;
+  }
+  header .logo-main {
+    padding-left: 0px;
+  }
+  .header-bottom .col-md-12 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
+/* Media Query for small screen */
+@media only screen and (max-width: 1010px) {
+  .region.region-sidebar-second {
+    padding-top: 25px !important;
+    width: 100%;
+  }
+
+  .has-child:hover .custom-drop-menu {
+    position: static;
+    max-height: 1000px;
+  }
+
+  .en a {
+    margin-left: 0px !important;
+  }
+
+  .header-top .top-left .first {
+    padding-top: 0px !important;
+    margin-left: 10px !important;
+  }
+  .active-hover {
+    display: none !important;
+  }
+  /* Hamburger icon */
+  .header-bottom {
+    margin-bottom: 10px;
+  }
+
+  .header-top {
+    height: 40px;
+  }
+  .header-top .container {
+    height: 100%;
+  }
+  #hamburger span {
+    background-color: #c41a28;
+  }
+  #cross span {
+    background-color: #c41a28;
+  }
+  /* National Logo */
+  .logo-main {
+    padding-left: 0;
+    width: 100% !important;
+  }
+  .logo-main img {
+    width: 60px !important;
+  }
+  .logo-main span span {
+    font-size: 18px;
+  }
+  .logo-main span span + span {
+    font-size: 15px !important;
+  }
+}

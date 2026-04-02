@@ -1,0 +1,129 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+<style>
+  .shivraj-section {
+    margin: 0px auto 20px;
+    padding: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:10px ;
+    max-width: 700px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .shivraj-section h2 {
+    color: #F5F7F8;
+    margin-top: 0;
+    text-align: center;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #234a83 !important;
+     padding: 15px;
+  }
+  .shivraj-section h2 i { margin-right: 20px; }
+  .shivraj-section p { color: #000; text-align: center; margin-bottom: 20px; }
+
+  .shivraj-button, .shivraj-button-doctor {
+    display: block;
+    background: #379777;
+    color: #F5F7F8;
+    padding: 10px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px auto;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: 80%;
+  }
+  .shivraj-button i { margin-right: 10px; }
+  .shivraj-button:hover { background: #333333; color:#F5F7F8 ; }
+  .shivraj-button-doctor:hover { background: #333333; color:#F5F7F8 ; }
+  .shivraj-phone-container{
+    padding: 10px;
+  }
+  </style>
+  <div class="shivraj-section" style="background-color: #ff6b6b !important;">
+    <h2 style="font-size: 18px !important;"><i class="fa-solid fa-mobile-screen-button"></i>जटिल गर्भवती अवस्थामा</h2>
+    <div class="shivraj-phone-container">  
+        <p style="font-size: 16px !important;">जटिल गर्भवती अवस्थामा शिवराज नगरपालिकाको बर्थिङ सेन्टरबाट सिफारिस गर्नुभएकाहरुलाई बुटवल र भैरहवा सम्म निशुल्क एम्बुलेन्स सेवा उपलब्ध</p>
+        <a style="font-size: 16px !important;" href="tel:9857014360" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9857014360</a>
+        <a style="font-size: 16px !important;" href="tel:9857014359" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9857014359</a>
+        <a style="font-size: 16px !important;" href="tel:9861684770" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9861684770</a>
+        <a style="font-size: 16px !important;" href="tel:9745415425" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9745415425</a>
+        <a style="font-size: 16px !important;" href="tel:9869852574" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9869852574</a>
+    </div>
+  </div>
+  <div class="shivraj-section" style="background-color: #ffcc5c !important;">
+    <h2 style="font-size: 18px !important;"><i class="fa-solid fa-truck-medical"></i>एम्बुलेन्स</h2>
+    <div class="shivraj-phone-container">  
+        <a style="font-size: 16px !important;" href="tel:9857014360" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9857014360</a>
+        <a style="font-size: 16px !important;" href="tel:9857014359" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9857014359</a>
+        <a style="font-size: 16px !important;" href="tel:9861684770" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9861684770</a>
+        <a style="font-size: 16px !important;" href="tel:9745415425" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9745415425</a>
+        <a style="font-size: 16px !important;" href="tel:9869852574" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9869852574</a>
+    </div>
+  </div>
+  <div class="shivraj-section" style="background-color: #6bcf63 !important;">
+    <h2 style="font-size: 18px !important;"><i class="fa-solid fa-fire-extinguisher"></i>दमकल</h2>
+    <div class="shivraj-phone-container">  
+        <a style="font-size: 16px !important;" href="tel:9857014361" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9857014361</a>
+    </div>
+  </div>
+  <div class="shivraj-section" style="background-color: #4a90e2 !important;">
+    <h2 style="font-size: 18px !important;"><i class="fa-solid fa-user-shield"></i>वडा कार्यलय प्रहरी चनौटा</h2>
+    <div class="shivraj-phone-container">  
+        <a style="font-size: 16px !important;" href="tel:9857090357" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9857090357</a>
+    </div>
+  </div>
+  <div class="shivraj-section" style="background-color: #ab83e0 !important;">
+    <h2 style="font-size: 18px !important;"><i class="fa-solid fa-user-shield"></i>नगर प्रहरी</h2>
+    <div class="shivraj-phone-container">  
+        <a style="font-size: 16px !important;" href="tel:9867149511" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9867149511</a>
+    </div>
+  </div>
+  <div class="shivraj-section" style="background-color: #ff6b81 !important;">
+    <h2 style="font-size: 18px !important;"><i class="fa-solid fa-house-medical"></i>सर्पदंश उपचार</h2>
+    <div class="shivraj-phone-container">  
+        <p style="font-size: 16px !important;">गोरुसिङ्गे सर्पदंश उपचार केन्द्रसम्म निशुल्क एम्बुलेन्स सहित उपचार खर्च निशुल्क</p>
+        <a style="font-size: 16px !important;" href="tel:9857014360" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9857014360</a>
+        <a style="font-size: 16px !important;" href="tel:9857014359" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9857014359</a>
+        <a style="font-size: 16px !important;" href="tel:9861684770" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9861684770</a>
+        <a style="font-size: 16px !important;" href="tel:9745415425" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9745415425</a>
+        <a style="font-size: 16px !important;" href="tel:9869852574" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9869852574</a>
+        <p style="font-size: 16px !important;">सर्पदंश उपचार केन्द्र गोरुसिङ्गे परामर्शका लागि</p>
+        <a style="font-size: 16px !important;" href="tel:9857050973" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9857050973</a>
+    </div>
+  </div>
+  <div class="shivraj-section" style="background-color: #36b9c7 !important;">
+    <h2 style="font-size: 18px !important;"><i class="fa-solid fa-paw"></i>अन-कल पशु सेवा</h2>
+    <div class="shivraj-phone-container">  
+        <p style="font-size: 16px !important;">पशुपंक्षीका लागि निशुल्क प्राविधिक सेवा</p>
+        <a style="font-size: 16px !important;" href="tel:9857014757" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9857014757</a>
+        <a style="font-size: 16px !important;" href="tel:9862216930" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9862216930</a>
+    </div>
+  </div>
+  <div class="shivraj-section" style="background-color: #f49e4a !important;">
+    <h2 style="font-size: 18px !important;"><i class="fa-solid fa-tint"></i>रक्त बैंक</h2>
+    <div class="shivraj-phone-container">  
+        <p style="font-size: 16px !important;">यी शाखाहरूमा निःशुल्क रगत सेवा उपलब्ध छ</p>
+        <h3 style="font-size: 17px !important; font-weight: 900; width: 80%; margin-left: auto; margin-right: auto;">बुटवल शाखा</h3>
+        <a style="font-size: 16px !important;" href="tel:9857041004" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9857041004</a>
+        <h3 style="font-size: 17px !important; font-weight: 900; width: 80%; margin-left: auto; margin-right: auto;">भैरहवा शाखा</h3>
+        <a style="font-size: 16px !important;" href="tel:9847039373" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9847039373</a>
+    </div>
+  </div>
+  <div class="shivraj-section" style="background-color: #f94144 !important;">
+    <h2 style="font-size: 18px !important;"><i class="fa-solid fa-warehouse"></i>शव वहान</h2>
+    <div class="shivraj-phone-container">
+        <p style="font-size: 16px !important;">शिवराज नगरपालिका भित्र: शव वहान सेवा निशुल्क! ध्यान राख्नुहोस्, <br> यो सेवा मात्र शिवराज नगरपालिका भित्र उपलब्ध छ</p>
+        <a style="font-size: 16px !important;" href="tel:9847042633" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9847042633</a>
+        <a style="font-size: 16px !important;" href="tel:9745415425" class="shivraj-button"><i class="fa-solid fa-phone"></i> 9745415425</a>
+    </div>
+  </div>
+  <div class="shivraj-section" style="background-color: #f3722c !important;">
+    <h2 style="font-size: 18px !important;"><i class="fa-solid fa-user-md"></i>विशेषज्ञ डाक्टरको उपस्थिती</h2>
+    <div class="shivraj-phone-container"> 
+        <p style="font-size: 16px !important;">आधारभूत अस्पतालमा तथा बिभिन्न हेल्थ पोस्टमा कुन दिन कुन विशेषज्ञ डाक्टर आउनुहुन्छ सम्पूर्ण जानकारीका लागि तल रहेको बटनमा थिच्नुहोस्</p>
+        <a href="https://www.shivarajmun.gov.np/ne/content/doctors-schedules" class="shivraj-button-doctor" style="font-size: 16px !important;">विशेषज्ञ डाक्टरहरूको तालिका हेर्नुहोस्</a>
+    </div>
+  </div>
+

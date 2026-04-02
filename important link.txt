@@ -1,0 +1,111 @@
+<style>
+    .unique-gov-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .special-section {
+      flex: 1 1 45%;
+      background: #F5F7F8;
+      border-radius: 3px;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+      padding: 9px;
+    }
+    .special-section h4{
+        text-align: center;
+        padding: 1px 0;
+        padding-bottom: 8px;
+        color: #379777 !important;
+        border-bottom: 2px solid #eee;
+    }
+    .gov-header {
+      font-size: 1.3em;
+      color: #000;
+      margin-bottom: 14px;
+    }
+
+    .gov-link-list {
+      font-size: 1.04em;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .gov-link-item {
+      flex: 1 1 calc(33.333% - 20px); 
+      display: flex;
+      align-items: stretch;
+      box-sizing: border-box;
+    }
+
+    .gov-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #234a83;
+      background: #f1f1f1;
+      padding: 10px;
+      border-radius: 2px;
+      transition:background 0.3s ease-out, transform 0.7s ease-in;
+      height: 100%; 
+      width: 100%;
+      box-sizing: border-box; 
+    }
+
+    .gov-link:hover {
+      background: #F4CE14;
+      transform: translateY(-6px);
+    }
+
+    @media (max-width: 768px) {
+      .special-section {
+        flex: 1 1 100%;
+      }
+      .gov-link-item {
+        flex: 1 1 calc(50% - 20px);
+      }
+    }
+  </style>
+<div class="unique-gov-container">
+    <div class="special-section">
+        <h4 class="gov-header"><strong>नेपाल सरकार अन्तर्गत</strong></h4>
+        <ul class="gov-link-list">
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://www.opmcm.gov.np/">प्रधानमन्त्री तथा मन्त्रिपरिषदको कार्यालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="http://www.moha.gov.np/">गृह मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://www.mof.gov.np/">अर्थ मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://www.moics.gov.np/">उद्योग, वाणिज्य तथा आपूर्ति मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="http://www.moljpa.gov.np/">कानून, न्याय तथा स‌ंसदिय मामिला मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://www.moald.gov.np/">कृषि तथा पशुपन्छी विकास मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://www.moud.gov.np/?lan=np">शहरी विकास मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://www.moewri.gov.np/">उर्जा जलस्रोत तथा सि‌ंचाइ मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://mofa.gov.np/">परराष्ट्र मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="http://www.mod.gov.np/">रक्षा मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="http://www.mopit.gov.np/">भौतिक पूर्वधार तथा यातायात मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="http://www.mofe.gov.np/">वन तथा वातावरण मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://moest.gov.np/">शिक्षा, विज्ञान तथा प्रविधि मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="http://moless.gov.np/">श्रम रोजगार तथा सामाजिक सुरक्षा मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="http://www.tourism.gov.np/">संस्कृति, पर्यटन तथा नागरिक उड्डयन मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="http://www.mofaga.gov.np/">सङ्घीय मामिला तथा सामान्य प्रशासन मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="http://mocit.gov.np/">सञ्‍चार तथा सूचना प्रविधि मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://mohp.gov.np/en/">स्वास्थ्य तथा जनसङ्ख्या मन्त्रालय</a></li>
+        </ul>
+    </div>
+    <div class="special-section">
+        <h4 class="gov-header"><strong>लुम्बिनि प्रदेश सरकार अन्तर्गत</strong></h4>
+        <ul class="gov-link-list">
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://ocmcm.lumbini.gov.np/">मुख्यमन्त्री तथा मन्त्रिपरिषदको कार्यालय, लुम्बिनी प्रदेश</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://moeap.lumbini.gov.np/">अर्थ मन्त्रालय, लुम्बिनी प्रदेश</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://moial.lumbini.gov.np/">गृह मन्त्रालय, लुम्बिनी प्रदेश</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://mopid.lumbini.gov.np/">भौतिक पूर्वाधार विकास मन्त्रालय, लुम्बिनी प्रदेश</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://mosd.lumbini.gov.np/">सामाजिक विकास मन्त्रालय, लुम्बिनी प्रदेश</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://molmac.lumbini.gov.np/">कृषि तथा भूमि व्यवस्था मन्त्रालय, लुम्बिनी प्रदेश</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://ppc.lumbini.gov.np/">प्रदेश योजना आयोग, लुम्बिनी प्रदेश</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://molwcsc.lumbini.gov.np/">महिला, बालबालिका तथा ज्येष्ठ नागरिक मन्त्रालय</a></li>
+            <li class="gov-link-item"><a target="_blank" class="gov-link" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSZXtYmweJqqJYYcgYLNz0HMuTm7woYn5nX-PEeuk3V9nM1jVRIuNK-RElrhL6hIcf-FdulO1joNoCc/pubhtml">कपिलवस्तु जिल्ला अन्तर्गत कार्यालय तथा कार्यालय प्रमुखको विवरण</a></li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+<style type="text/css">
+#myModal {
+    margin-top: 50px;
+}
+.modal-header button {
+    display: block;
+    margin:  5px 5px 5px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+		background: #379777;
+		border-radius: 100%;
+		width: 45px;
+		height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.modal-header button:hover {
+  background: #333333;
+}
+@media only screen and (max-width: 600px) {
+  .modal-content{
+      left:10% !important;
+  }
+  #pban img{
+      width: 286px !important;
+  }
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<div class="bs-example">
+<div class="modal fade" id="myModal">
+<div class="modal-dialog" style="width:80%;">
+<div class="modal-content">
+<div class="modal-header" style="border: none; padding-bottom:0px;"><button aria-hidden="true" data-dismiss="modal" id="close" type="button">×</button></div>
+<div class="modal-body" id="pban">
+<center><img alt="" src="/sites/shivrajmun.gov.np/files/u51/%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BE%E0%A4%A8%20%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%B8%20%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A7.png" style="width:100%" /></center>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+$(window).on('load',function(){
+   	$('#myModal').modal('show');
+	});	
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".modal-body").style.display = "none";
+});
+</script>
